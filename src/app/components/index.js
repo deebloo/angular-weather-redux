@@ -1,3 +1,5 @@
+'use strict';
+
 // THIS FILE IS DYNAMICALLY GENERATED. MODIFY AT YOUR OWN RISK
 
 // START-import-components

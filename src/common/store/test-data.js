@@ -13,6 +13,7 @@ export default {
 	'message': 0.0374,
 	'cnt': 5,
 	'list': [{
+		'day': 'Mon',
 		'dt': 1458406800,
 		'temp': {
 			'day': 35.22,
@@ -34,6 +35,7 @@ export default {
 		'deg': 48,
 		'clouds': 80
 	}, {
+		'day': 'Tues',
 		'dt': 1458493200,
 		'temp': {
 			'day': 39.52,
@@ -57,6 +59,7 @@ export default {
 		'rain': 8.32,
 		'snow': 3.07
 	}, {
+		'day': 'Weds',
 		'dt': 1458579600,
 		'temp': {
 			'day': 44.42,
@@ -79,6 +82,7 @@ export default {
 		'clouds': 0,
 		'snow': 0.4
 	}, {
+		'day': 'Thurs',
 		'dt': 1458666000,
 		'temp': {
 			'day': 54.14,
@@ -100,6 +104,7 @@ export default {
 		'deg': 195,
 		'clouds': 8
 	}, {
+		'day': 'Fri',
 		'dt': 1458752400,
 		'temp': {
 			'day': 67.8,
