@@ -19,9 +19,11 @@ const store = createStore((state = {}, action) => {
 	let day = moment();
 
 	if (action.data) {
-		action.data.list.forEach((item, idx) => {
-			item.day = day.add(idx, 'day').format('ddd');
-		});
+		if (action.data.list) {
+			action.data.list.forEach((item, idx) => {
+				item.day = day.add(idx, 'day').format('ddd');
+			});
+		}
 	}
 
 	return action.data;

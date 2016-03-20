@@ -7,6 +7,11 @@ const webpackConfig = require('../../webpack.config');
 
 gulp.task('compile', ['injector'], done => {
 	webpackConfig.devtool = 'inline-source-map';
+	webpackConfig.plugins = [
+		new webpack.DefinePlugin({
+			'process.env.NODE_ENV': '"development"'
+		}),
+	];
 
 	webpack(webpackConfig, webPackComplete(done));
 });
@@ -14,7 +19,10 @@ gulp.task('compile', ['injector'], done => {
 gulp.task('compile:dist', ['injector'], done => {
 	webpackConfig.output.path = 'dist/scripts';
 	webpackConfig.plugins = [
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin(),
+		new webpack.DefinePlugin({
+			'process.env.NODE_ENV': '"production"'
+		}),
     ];
 
 	webpack(webpackConfig, webPackComplete(done));

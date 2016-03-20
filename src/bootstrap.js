@@ -9,4 +9,4 @@ import uiRouter from 'angular-ui-router';
 
 import APP_NAME from 'src/app/';
 
-angular.element(document).ready(() => angular.bootstrap(document, [APP_NAME]));
+angular.bootstrap(document.body, [APP_NAME]);

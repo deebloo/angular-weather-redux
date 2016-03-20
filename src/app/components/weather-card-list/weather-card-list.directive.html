@@ -1,6 +1,8 @@
 <div class="weather-card-list">
     <h2 class="no-weather" ng-if="!vm.weather">Look for weather in your area</h2>
 
+    <img class="loading-gif" src="../imgs/spinningwheel.gif" alt="loading gif">
+
     <div class="list">
         <weather-card
             ng-repeat="weather in vm.weather"
