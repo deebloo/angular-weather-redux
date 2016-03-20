@@ -2475,13 +2475,13 @@ header-bar {
     .weather-card .content .description {
       font-weight: bold; }
   .weather-card.Clear {
-    background: url(../../imgs/sunny-sky.jpg) 50% 50%; }
+    background: url(../imgs/sunny-sky.jpg) 50% 50%; }
   .weather-card.Clouds {
-    background: url(../../imgs/cloudy.jpg) 50% 50%; }
+    background: url(../imgs/cloudy.jpg) 50% 50%; }
   .weather-card.Rain {
-    background: url(../../imgs/rainy.gif) 50% 50%; }
+    background: url(../imgs/rainy.gif) 50% 50%; }
   .weather-card.Snow {
-    background: url(../../imgs/snowy.gif) 50% 50%; }
+    background: url(../imgs/snowy.gif) 50% 50%; }
   .weather-card h3 {
     margin: 0 0 10px 0;
     padding: 0; }
