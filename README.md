@@ -1,4 +1,4 @@
-# TSA NEWS
+# Angular Weather Redux
 
 ## Installation
 
@@ -15,12 +15,4 @@ npm install
 
 ```
 npm start
-```
-
-IN SEPARATE SHELL
-
-```
-ionic platform add ios
-
-ionic emulate ios --livereload
 ```
