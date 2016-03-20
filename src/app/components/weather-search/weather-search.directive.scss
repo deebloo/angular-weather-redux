@@ -1,0 +1,11 @@
+weather-search {
+    input[type="text"] {
+        padding: 15px 15px;
+        font-size: 1.3em;
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        border: solid 1px $light-gray;
+        font-weight: bold;
+    }
+}

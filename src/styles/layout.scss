@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: $gray;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.cfx::before,
+.cfx::after {
+    clear: both;
+}
+
+.no-animate {
+   -webkit-transition: none !important;
+   transition: none !important;
+}

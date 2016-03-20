@@ -1,0 +1,39 @@
+header-bar {
+    box-shadow: $full-length-shadow;
+    padding: 10px 15px;
+    background: $blue;
+    margin-bottom: 10px;
+    display: block;
+
+    h1 {
+        display: inline-block;
+        color: $white;
+        font-size: 1.5em;
+    }
+
+    weather-search {
+        display: block;
+        margin: 10px auto;
+    }
+
+    .error-message {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: $max-width) {
+    header-bar {
+        h1 {
+            display: block;
+            margin-top: 0;
+            text-align: center;
+        }
+
+        weather-search {
+            width: 100%;
+            display: block;
+        }
+    }
+}

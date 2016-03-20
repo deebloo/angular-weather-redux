@@ -1,0 +1,51 @@
+weather-card-list {
+    display: block;
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 10px;
+    }
+
+    .no-weather {
+        color: $dark-gray;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    weather-card {
+        width: calc(100% * (1/5) - 20px);
+        margin: 10px;
+
+        &.ng-move,
+        &.ng-enter,
+        &.ng-leave {
+            transition:all linear 0.3s;
+        }
+
+        &.ng-enter {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+        &.ng-enter-active {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        &.ng-leave {
+            transform: translateY(-100%);
+            opacity: 1;
+        }
+        &.ng-leave-active {
+            transform: translateY(10%);
+            opacity: 0;
+        }
+    }
+
+    @media (max-width: $max-width) {
+        weather-card {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+}

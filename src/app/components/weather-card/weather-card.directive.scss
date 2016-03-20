@@ -1,0 +1,67 @@
+.weather-card {
+    display: block;
+    box-shadow: $card-shadow;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    transition: transform .3s;
+
+    .header {
+        background: $white;
+        color: $blue;
+        margin: 0 0 15px 0;
+        padding: 10px 15px;
+
+        h2 {
+            font-size: 1.3em;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            right: 10px;
+        }
+    }
+
+    .content {
+        padding: 15px;
+        background: rgba(255,255,255,0.7);
+
+        hr {
+            border-color: $dark-gray;
+            border-bottom: none;
+        }
+
+        .description {
+            font-weight: bold;
+        }
+    }
+
+    &.Clear {
+        background: $clear;
+    }
+
+    &.Clouds {
+        background: $clouds;
+    }
+
+    &.Rain {
+        background: $rain;
+    }
+
+    &.Snow {
+        background: $snow;
+    }
+
+    h3 {
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
