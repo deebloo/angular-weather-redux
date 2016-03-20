@@ -4,6 +4,7 @@
 node_modules/
 platforms/
 dev/
+dist/
 plugins/
 coverage/
 docs/*.html
