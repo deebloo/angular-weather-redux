@@ -1,7 +1,0 @@
-{
-  "generator-angular-blueprint": {
-    "appName": "WeatherApp",
-    "jsVersion": "ES6",
-    "appDir": "src"
-  }
-}
