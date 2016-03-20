@@ -4,6 +4,8 @@
 node_modules/
 platforms/
 plugins/
+dev/
+dist/
 coverage/
 docs/*.html
 docs/styles
