@@ -1,8 +1,8 @@
-# Angular Weather Redux
+# Angular Weather Redux [![Circle CI](https://circleci.com/gh/deebloo/angular-weather-redux.svg?style=svg)](https://circleci.com/gh/deebloo/angular-weather-redux)
 
 ## Installation
 
-[Demo](http://deebloo.github.io/angular-weather-redux/#/)
+[Demo](http://deebloo.github.io/angular-weather-redux/#/) 
 
 Install NodeJs
 
