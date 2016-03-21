@@ -26,12 +26,12 @@ npm start
 npm test
 ```
 
-### build documentation
+#### build documentation
 ```
 npm run docs
 ```
 
-### build release version 
+#### build release version 
 ```
 npm run build
 ```
