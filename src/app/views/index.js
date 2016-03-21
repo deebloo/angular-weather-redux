@@ -9,10 +9,13 @@ import home from './home/home.route.js';
 const moduleName = 'views';
 const views = angular.module(moduleName, ['ui.router']);
 
-views.config(['$stateProvider', function ($stateProvider) {
+function config($stateProvider) {
 	// START-attach-routes
 	home(...arguments);
 	// END-attach-routes
-}]);
+}
+config.$inject = ['$stateProvider'];
+
+views.config(config);
 
 export default moduleName;

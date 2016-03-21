@@ -12,7 +12,7 @@ export default angular
         components,
         views
     ])
-	.config(($urlRouterProvider) => {
+	.config(['$urlRouterProvider', $urlRouterProvider => {
 		$urlRouterProvider.otherwise('/');
-	})
+	}])
 	.name;
