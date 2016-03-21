@@ -60,6 +60,6 @@ function weather($http) {
 	};
 }
 
-//weather.$inject = ['$http'];
+weather.$inject = ['$http'];
 
 export default weather;
