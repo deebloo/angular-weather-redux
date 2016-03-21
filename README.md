@@ -4,6 +4,8 @@
 
 [Demo](http://deebloo.github.io/angular-weather-redux/#/) 
 
+[Docs](http://deebloo.github.io/angular-weather-redux/docs) 
+
 Install NodeJs
 
 Clone Repository
