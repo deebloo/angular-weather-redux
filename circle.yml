@@ -2,6 +2,8 @@
 # Customize the test machine
 ########################
 machine:
+  environment:
+    NODE_ENV: ci
   node:
     version:
       5.7.0
@@ -11,4 +13,4 @@ machine:
 ########################
 test:
   override:
-    - NODE_ENV=ci npm test
+    - npm test
